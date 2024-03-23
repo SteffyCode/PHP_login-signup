@@ -1,0 +1,80 @@
+/*import new font*/
+@import url('https://fonts.cdnfonts.com/css/the-aesthetic-essential');
+
+*{
+    font-family: 'The Aesthetic Essential', sans-serif;
+}
+
+ body {
+    background-color: blueviolet;
+}
+
+#form {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    border-radius: 4px;
+    margin: 50px auto;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(82, 11, 77);
+    text-align: center;
+}
+
+
+#content {
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height: 80%;
+    border-radius: 4px;
+    margin: 50px auto;
+    padding: 25px;
+    box-shadow: 5px 5px 5px 5px rgb(82, 11, 77);
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust as needed */
+    background-color: rgb(108, 22, 189);
+    font-size: large;
+    border-radius: 10px;
+    width: 97%;
+    padding: 10px 0px 10px 10px;
+}
+
+
+#button {
+    color: rgb(255, 255, 255);
+    background-color: rgb(108, 22, 189);
+    padding: 10px;
+    font-size: large;
+    border-radius: 10px;
+    width: 100%;
+    text-decoration:none;
+}
+
+
+#text{
+    height: 25px;
+    border-radius: 5px;
+    padding: 4px 0px 4px 4px;
+    border: solid thin #aaa;
+    width: 95%;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(83, 49, 114);
+    text-transform: uppercase  ;
+}
+
+
+
+/*resposiveness*/
+@media screen and (max-width: 570px) {
+    #form {
+        width: 65%;
+        margin-left: none;
+        padding: 40px;
+    }
+}
